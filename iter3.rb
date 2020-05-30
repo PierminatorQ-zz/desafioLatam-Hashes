@@ -1,3 +1,5 @@
+def filter(val)
+
 ventas = {
     Enero: 15000,
     Febrero: 22000,
@@ -12,12 +14,13 @@ ventas = {
     Noviembre: 91000,
     Diciembre: 21000
     }
-
-    total={}
-
+total={}
     ventas.each do |k,v|
-        if v>45000
+        if v>val
             total[k]=v
         end
     end
-puts total.keys
+    print total
+end
+val=0
+filter(21000)
