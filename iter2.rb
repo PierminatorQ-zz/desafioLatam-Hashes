@@ -1,4 +1,3 @@
-
 ventas = {
     Enero: 15000,
     Febrero: 22000,
@@ -14,12 +13,10 @@ ventas = {
     Diciembre: 21000
     }
 
-    array={}
+    total={}
 
-ventas.each do |k,v|
-    if v>45000
-    array[k] = v
+    ventas.each do |k,v|
+        if v>45000
+            total[k]=v
     end
-end
-
-print array.values
+puts total
