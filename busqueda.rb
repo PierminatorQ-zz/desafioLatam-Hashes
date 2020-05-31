@@ -16,12 +16,6 @@ ventas = {
     Diciembre: 21000
     }
 
-=begin
-a=ventas.select{|k,v| v==val1}
-b=ventas.select{|l,m| m==val2}
-c=ventas.select{|f,g| g==val3}
-=end
-
 comp=[val1,val2,val3]
 
     comp.each do |x|
