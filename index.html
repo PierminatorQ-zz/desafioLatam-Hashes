@@ -1,62 +1,62 @@
 <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Bootstrap-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <!--Fontawesome-->
-        <script src="https://kit.fontawesome.com/22ae6d249f.js" crossorigin="anonymous"></script>
-        <!--google fonts-->
-        
-        <!--CSS styles-->
-        <link rel="stylesheet" href="style.css">
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--Bootstrap-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <!--Fontawesome-->
+            <script src="https://kit.fontawesome.com/22ae6d249f.js" crossorigin="anonymous"></script>
+            <!--google fonts-->
+            
+            <!--CSS styles-->
+            <link rel="stylesheet" href="style.css">
 
 
 
-        <title>Prueba Introduccion a Ruby</title>
-    </head>
-    <body>
+            <title>Prueba Introduccion a Ruby</title>
+        </head>
+        <body>
 
-    <div class="container">
-        <h1 class="title text-center m-4">Fotos de Mars Rovers <small class="text-muted">Extraido API NASA</small></h1>
-        <div class="row"><div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0011002000I1_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0025002000F1_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0024002000F1_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0023002000F1_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0022002000F1_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0011002000F1_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0011002000F2_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0025002000F1_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113015000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113015000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113014000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113014000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113013000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113013000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113012000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113012000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113011000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113011000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113010000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113010000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113009000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113009000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113008000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113008000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113007000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113007000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113006000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113006000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020MR0113005000C0_DXXX.jpg' class='img-fluid'></div>
-<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00020/mcam/0020ML0113005000C0_DXXX.jpg' class='img-fluid'></div>
+        <div class="container">
+            <h1 class="title text-center m-4">Fotos de Mars Rovers <small class="text-muted">Extraido API NASA</small></h1>
+            <div class="row"><div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00030/opgs/edr/fcam/FRA_400161925EDR_F0040000FHAZ00201M_.JPG' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00030/opgs/edr/fcam/FLA_400162288EDR_F0040000FHAZ00201M_.JPG' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00030/opgs/edr/fcam/FRA_400162288EDR_F0040000FHAZ00201M_.JPG' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00030/opgs/edr/fcam/FLA_400161925EDR_F0040000FHAZ00201M_.JPG' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001330000100840I01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0000400000100851E01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030MR0001350020100769E01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030MR0001350010100768E01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030MR0001350000100767E01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001340020100850D01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001340010100849D01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001340000100848E01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030MR0001340000100766E01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001320060100847D01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001320050100846D01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001320040100845D01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001320030100844D01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001320020100843D01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001320010100842D01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001320000100841E01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030MR0001330000100765E01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001330000100840E01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0000400000100851I01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030MR0001350020100769I01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030MR0001350010100768I01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030MR0001350000100767I01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001340020100850I01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001340010100849I01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030ML0001340000100848I01_DXXX.jpg' class='img-fluid'></div>
+<div class='col-md-4 imagen'><img src='http://mars.jpl.nasa.gov/msl-raw-images/msss/00030/mcam/0030MR0001340000100766I01_DXXX.jpg' class='img-fluid'></div>
 </div>
-    </div>
-        
+        </div>
+            
 
-        <!--Scripts Bootstrap-->
-    <script  src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
-    </html>
+            <!--Scripts Bootstrap-->
+        <script  src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        </body>
+        </html>
